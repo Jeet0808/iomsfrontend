@@ -1,0 +1,100 @@
+
+.IconsSide{
+    width: 30px;
+    height: 30px;
+}
+
+
+#List {
+    display: flex;
+    align-items: center;
+}
+
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+
+   
+}
+
+
+
+
+#Sidebar {
+    background-color: rgba(255, 255, 255, 0.905);
+    width: 20rem;
+    height: 100vh;
+    position: fixed;
+    top: 3.5rem;
+    /* To make side bar scrolable i used overflow-t means vertical scroll aito means it will sotpmatiaclly adjust wheather to do or nt */
+    overflow-y: auto;
+    padding: 0.5rem;
+    box-shadow: 1px 3px rgb(65, 64, 64);
+    
+}
+
+#Sidebarfooter{
+    margin-top: 16rem;
+    display: flex;
+    align-items: center;
+   
+    gap: 1rem;
+    cursor: pointer;
+   
+}
+
+#Sidebarfooter img{
+    width: 2rem;
+}
+
+#Sidebarfooter h4{
+    color: rgba(0, 0, 255, 0.605);
+}
+
+#Linkdiv {
+    padding-left: 1rem;
+
+
+}
+
+.LinkSide {
+    text-decoration: none;
+   
+    text-align: center;
+    align-items: center;
+
+
+
+}
+
+
+#List {
+    gap: 1rem;
+    font-size: large;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: rgb(90, 90, 90);
+   
+}
+
+#List:hover{
+   color: rgb(0, 76, 255);
+    background-color: rgba(0, 76, 255, 0.136);
+
+}
+
+
+@media screen and (max-width: 480px) {
+    #Sidebar{
+        display: none;
+    };
+}
+
+
+@media screen and (Width>=500) {
+    #Sidebar{
+        display: block;
+    };
+}
