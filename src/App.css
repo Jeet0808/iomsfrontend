@@ -12,16 +12,17 @@
     padding: 0.4rem;
     position: fixed;
     height: 100vh;
-    z-index: 1;
+   
     overflow-y: auto;
     padding: 1rem;
-    
+    color: rgb(69, 70, 70);
 
 }
 
 #Sidebarfooter{
    
-    
+    z-index: 1000;
+
   
     padding: 1rem;
 }
@@ -33,6 +34,7 @@
 }
 #MobileSide{
     display: none;
+    z-index: 1000;
 }
 
 @media screen and (max-width: 580px) {
@@ -49,13 +51,15 @@
     justify-content: space-evenly;
 
    
-    background-color: rgb(185, 214, 253);
+    background-color: rgba(185, 214, 253, 0.236);
     z-index: 1000;
 }
 #MobileDiv{
     padding: 0.5rem;
+ 
     display: flex; 
     justify-content: space-evenly;
+    
 }
 #Sidebar{
     display: none;
@@ -65,8 +69,22 @@
 #display{
     display: block;
     margin-left: 0;
-    height: 84%;
+    height: 77vh;
    
    
 }
+}
+
+
+
+#Datatable{
+    display: flex;
+   color: rgb(93, 92, 91);
+    
+    gap: 1rem;
+}
+
+#DataHeader{
+    display: flex;
+    gap: 4rem;
 }

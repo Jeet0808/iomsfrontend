@@ -1,5 +1,5 @@
 import React from "react";
-import Home from "./assets/Home.png";
+
 import Products from "./assets/store.png";
 import Category from "./assets/category (1).png";
 import Supplier from "./assets/agreement.png";
@@ -21,7 +21,8 @@ const SideNav = (props) => {
 
 
             <div id="Linkdiv">
-                <Link className="LinkSide" to={"/"}>
+                
+                <Link className="LinkSide" to={"/Dashboard"}>
                     <div id="ContentSide">
                         <div id="List">
                             <img className="IconsSide" src={Dashboard}></img>

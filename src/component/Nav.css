@@ -10,8 +10,8 @@ body {
 }
 
 #Logoimg{
-    width: 9rem;
-    height: 3rem;
+    width: 8rem;
+    height: 2.5rem;
     margin-left: 10px;
 }
 
@@ -28,7 +28,7 @@ header{
     align-items: center;
     justify-content: space-between;
     /* background-color: rgb(240, 235, 235); */
-    background-color: rgb(105, 210, 252);
+    background-color: rgba(185, 214, 253, 0.236);
    
   
    
@@ -53,7 +53,7 @@ header{
 
 #Searchbar{
     padding: 5px;
-   width: 12rem;
+   width: 10rem;
     outline-color:aliceblue;
     
     border-color: aliceblue;

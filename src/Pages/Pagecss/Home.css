@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#Login{
+   background-color: aqua;
+    
+}
+
+
+#Logout{
+  
+    width: 80%;
+    height: 80%;
+    display: block;
+    background-color: rgba(0, 81, 255, 0.416);
+}
+
+#LogOutForm{
+    display: block;
+}
+
+.className{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+}
+
+.className input{
+    padding: 0.5rem;
+    border-radius: 1rem;
+    
+}

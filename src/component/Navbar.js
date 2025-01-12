@@ -6,10 +6,15 @@ import SignOut from "./assets/signout.png";
 import Settings from "./assets/settings.png";
 
 import "./Nav.css";
+import LogOut from "../Pages/LogOut";
+
+import { Link, Outlet, link } from "react-router-dom";
 
 
 
 const Navbar = () => {
+
+  
     return (
         <header>
             <div id="Navbar">
@@ -20,7 +25,13 @@ const Navbar = () => {
                 <div id="RightNav">
                     <input id="Searchbar" type="text" placeholder="Search here"></input>
                     <img className="Icons" src={Bell}></img>
-                    <img className="Icons" src={SignOut}></img>
+                    
+                    <Link to={"/LogOut"}>
+                   
+                    <img className="Icons" src={SignOut}  ></img>
+                           
+                </Link>
+                    
                     <img className="Icons" src={Settings}></img>
 
                 </div>

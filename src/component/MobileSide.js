@@ -18,7 +18,7 @@ const SideNav = (props) => {
 
      
         <div id="MobileDiv">
-        <Link className="LinkSide" to={"/"}>
+        <Link className="LinkSide" to={"/Dashboard"}>
             <div id="ContentSide">
                 <div id="List">
                     <img className="IconsSide" src={Dashboard}></img>
